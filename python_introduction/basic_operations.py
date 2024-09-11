@@ -4,7 +4,7 @@ number2 = 5
 
 #Calculate the sum, difference, and product
 sum_result = number1 + number2
-diff_result = number1 + number2
+diff_result = number1 - number2
 product_result = number1 * number2
 
 #Print the results
