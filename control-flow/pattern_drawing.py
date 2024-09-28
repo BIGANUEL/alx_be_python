@@ -1,8 +1,4 @@
-user = int(input("Enter the size of the pattern: "))
-i =1
-while i<= user:
-    for j in range (user):
-        print("*",end="")
-    print()
-    i+=1
-   
+dic = {"anuel" : "G", "cr7" : "G2"}
+
+for i in dic.items():
+    print(f"key {i}")
