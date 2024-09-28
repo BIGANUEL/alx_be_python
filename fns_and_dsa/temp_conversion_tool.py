@@ -7,12 +7,12 @@ def convert_to_fahrenheit(celsius):
     return (celsius *CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
 temperature_value = float(input("Enter the temperature to convert: "))
-temperature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").lower()
+temperature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 
-if temperature_type == "f":
+if temperature_type == "F":
     result = convert_to_celsius(temperature_value)
     print(f"{temperature_value}°F is {result}°C")
-elif temperature_type == "c":
+elif temperature_type == "C":
     result = convert_to_fahrenheit(temperature_value)
     print(f"{temperature_value}°C is {result}°F")
 else:
